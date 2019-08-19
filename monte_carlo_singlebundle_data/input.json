@@ -1,0 +1,64 @@
+{
+    "Number of particle in the simulation": 1000,
+    "axis shift 1 [m]": [
+        -1e-08,
+        1e-08,
+        11
+    ],
+    "axis shift 2 [m]": [
+        -1e-08,
+        1e-08,
+        11
+    ],
+    "cnts": {
+        "1": {
+            "chirality": [
+                4,
+                2
+            ],
+            "keep old results": false,
+            "length": [
+                10,
+                "cnt unit cells"
+            ]
+        },
+        "comment": "the cnts listed in this section ARE used in the monte carlo simulation",
+        "directory": "~/research/exciton_energy/"
+    },
+    "exciton velocity [m/s]": 200000.0,
+    "keep old results": false,
+    "max hopping radius [m]": 2e-08,
+    "maximum time for kubo simulation [seconds]": 1e-12,
+    "mesh input directory": "~/research/mesh/cnt_mesh_fiber",
+    "monte carlo time step": 1e-15,
+    "number of particles for kubo simulation": 2000,
+    "number of sections for injection region": 3,
+    "number of segments": 10,
+    "output directory": "~/research/monte_carlo_fiber_exp",
+    "rate type": "davoody",
+    "temperature [kelvin]": 300,
+    "theta [degrees]": [
+        0,
+        180,
+        21
+    ],
+    "trim limits": {
+        "xlim": [
+            -1e-06,
+            1e-06
+        ],
+        "ylim": [
+            0,
+            1e-07
+        ],
+        "zlim": [
+            -1e-06,
+            1e-06
+        ]
+    },
+    "zshift [m]": [
+        1.5e-09,
+        1e-08,
+        11
+    ]
+}
